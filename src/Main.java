@@ -2,13 +2,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int x = 7;
+        int y= 5;
+        System.output.println(x+y);
+}  
+public static void main(String[] args) {
 
-        // TODO: Read two integers
-      
-
-        // TODO: Print their sum  using println
-      
-        scanner.close();
-    }
+    scanner sc = new
+        Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    System.out.print(a+b);
+    sc close();
 }
